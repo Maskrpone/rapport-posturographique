@@ -1,0 +1,48 @@
+\section{Comment enregistrer les signaux}
+
+\subsection{Enregistrement des forces et moments sur une plateformes de force}
+
+Les plateformes de force sont équipées des “capteurs de force”. 
+Des jauges de contrainte ou des capteurs piézoélectriques sont intégrés dans leur structure.
+Ces capteurs permettent de mesurer les composantes des forces et des moments exercés sur la plateforme.
+Les données capturées sont transmises à un système d’acquisition numérique (DAQ, pour Data Acquisition System), par connexion filaires ou sans fil.
+Ce système convertit les signaux analogiques en données numériques prêtes à être exploitées.
+
+Ces plateformes sont en général couplées à des logiciels comme \textit{NetForce} pour AMTI ou \textit{BalanceTest} pour Bertec. 
+Ces logiciels calculent des indicateur spécifiques tel que le Centre de Pression (CdP) permettant alors de visualiser les données en temps réel.
+
+\subsection{Enregistrement des accélérations et vitesses angulaires (IMU)}
+
+Les IMU contiennent des accéléromètres pour les accélérations linéaires, des gyroscopes pour mesurer les rotations angulaires, et certaines fois des magnétomètres pour obtenir l’orientation absolue.
+Les capteurs utilisés sont fixés via des bandes d’élastiques ou des adhésifs sur de segments corporels clés comme le tronc, les membres supérieurs et inférieurs.
+La transmission des données vers l’ordinateur ou l’enregistreur portable se fait via Bluetooth ou Wi-Fi permettant alors une acquisition en temps réel des données.
+
+Les données brutes sont ensuite traitées avec les logiciels comme \textit{MVN Analyze} pour Xsens et \textit{Noraxon MR3} qui vont traiter les données brutes pour fournir des informations comme les trajectoires, les vitesses angulaires, et les accélérations.
+
+\subsection{Enregistrement des pressions plantaires (Systèmes de baropodométrie)}
+
+Les systèmes de baropodométrie utilisent des capteurs capacitifs ou résistifs intégrés dans des plateformes ou dans des semelles.
+Ces capteurs vont permettre de mesurer les variations de pression sur la surface plantaire. On récupère les signaux via des connecteurs câblés ou des dispositifs sans fil directement intégrés dans la plateforme ou dans les semelles. 
+
+Pour traiter ses données on va souvent utiliser les logiciels comme \textit{Tekscan Research Software} ou \textit{Zebris FDM}.
+Les résultats seront souvent sous forme de carte de pression plantaires et des trajectoires du CdP.
+
+\subsection{Enregistrement des potentiels électriques musculaires (EMG)}
+
+On va placer des électrodes directement sur la peau au-dessus des muscles ciblésn ou on l’insère dans les muscles pour des mesures précises.
+Les signaux électriques capturés sont de faible amplitude et nécessitent un passage via un amplificateur EMG.
+On va pouvoir utiliser les logiciels dédiés comme \textit{EMGworks}, \textit{Noraxon MR3} qui filtrent et analysent les données pour en extraire les caractéristiques musculaires comme l’intensité, la durée, la fréquence.
+
+\subsection{Enregistrement des trajectoires segmentaires (Systèmes vidéo 3D)}
+
+On va placer des marqueurs réfléchissants avec des LEDs qui sont placés sur des points anatomiques spécifiques comme les articulations et les segments corporels.
+Les caméras infrarouges ou optiques suivent les marqueurs en mouvement. 
+Les données sont collectées en temps réel par un logiciel comme Nexus pour Vicon ou Motive pour OptiTrack.
+Ils reconstruisent les trajectoires 3D des segments corporels et calculent les angles articulaires.
+
+
+\subsection{Enregistrement des paramètres spatio-temporels (Systèmes filaires et tapis électroniques)}
+
+Les tapis électroniques sont équipés de capteurs qui détectent la pression ou l’impact de chaque pas.
+Ils mesurent différents paramètres comme la cadence, la vitesse de marche, la longueur de pas, et la symétrie des appuis.
+On va, là aussi, utiliser les logiciels comme \textit{GAITRite} ou \textit{Zebris FDM-T} qui génèrent des rapports complets sur la dynamique de la marche.

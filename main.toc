@@ -1,0 +1,20 @@
+\contentsline {section}{\numberline {1}Introduction}{3}{}%
+\contentsline {subsection}{\numberline {1.1}Posturographie dynamique}{3}{}%
+\contentsline {subsection}{\numberline {1.2}Posturographie statique}{3}{}%
+\contentsline {section}{\numberline {2}Expliquer les différents types de signaux et donner des exemples}{4}{}%
+\contentsline {subsection}{\numberline {2.1}Les forces et moments}{4}{}%
+\contentsline {subsection}{\numberline {2.2}Accélération et vitesses angulaires (Centrales inertielles, IMU)}{5}{}%
+\contentsline {subsection}{\numberline {2.3}Pressions plantaires (Systèmes de baropodométrie)}{5}{}%
+\contentsline {subsection}{\numberline {2.4}Potentiels électriques musculaires (EMG - Électromyographie)}{7}{}%
+\contentsline {subsection}{\numberline {2.5}Trajectoires segmentaires (systèmes de capture vidéo 3D)}{8}{}%
+\contentsline {subsection}{\numberline {2.6}Paramètres spatio-temporels (pistes de marche électronique)}{9}{}%
+\contentsline {section}{\numberline {3}Comment enregistrer les signaux}{11}{}%
+\contentsline {subsection}{\numberline {3.1}Enregistrement des forces et moments sur une plateformes de force}{11}{}%
+\contentsline {subsection}{\numberline {3.2}Enregistrement des accélérations et vitesses angulaires (IMU)}{11}{}%
+\contentsline {subsection}{\numberline {3.3}Enregistrement des pressions plantaires (Systèmes de baropodométrie)}{11}{}%
+\contentsline {subsection}{\numberline {3.4}Enregistrement des potentiels électriques musculaires (EMG)}{11}{}%
+\contentsline {subsection}{\numberline {3.5}Enregistrement des trajectoires segmentaires (Systèmes vidéo 3D)}{11}{}%
+\contentsline {subsection}{\numberline {3.6}Enregistrement des paramètres spatio-temporels (Systèmes filaires et tapis électroniques)}{11}{}%
+\contentsline {section}{\numberline {4}Les différentes machines}{12}{}%
+\contentsline {subsection}{\numberline {4.1}Plateformes de force}{12}{}%
+\contentsline {subsubsection}{\numberline {4.1.1}Exemples :}{12}{}%

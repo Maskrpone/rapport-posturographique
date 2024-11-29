@@ -1,0 +1,314 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/nixos.org) (preloaded format=pdflatex 1980.1.1)  29 NOV 2024 22:37
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-10-09>
+(/nix/store/zxdi2d15ryfvilggk6jdzc0ya12s2h6q-texlive-2024-env-texmfdist/tex/latex/base/article.cls
+Document Class: article 2024/02/08 v1.4n Standard LaTeX document class
+(/nix/store/zxdi2d15ryfvilggk6jdzc0ya12s2h6q-texlive-2024-env-texmfdist/tex/latex/base/size10.clo
+File: size10.clo 2024/02/08 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count194
+\c@section=\count195
+\c@subsection=\count196
+\c@subsubsection=\count197
+\c@paragraph=\count198
+\c@subparagraph=\count199
+\c@figure=\count266
+\c@table=\count267
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen141
+) (/nix/store/zxdi2d15ryfvilggk6jdzc0ya12s2h6q-texlive-2024-env-texmfdist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (/nix/store/zxdi2d15ryfvilggk6jdzc0ya12s2h6q-texlive-2024-env-texmfdist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (/nix/store/zxdi2d15ryfvilggk6jdzc0ya12s2h6q-texlive-2024-env-texmfdist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/05/23 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+ (/nix/store/zxdi2d15ryfvilggk6jdzc0ya12s2h6q-texlive-2024-env-texmfdist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+) (/nix/store/zxdi2d15ryfvilggk6jdzc0ya12s2h6q-texlive-2024-env-texmfdist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+ (/nix/store/zxdi2d15ryfvilggk6jdzc0ya12s2h6q-texlive-2024-env-texmfdist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen142
+\Gin@req@width=\dimen143
+) (/nix/store/zxdi2d15ryfvilggk6jdzc0ya12s2h6q-texlive-2024-env-texmfdist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+ (/nix/store/zxdi2d15ryfvilggk6jdzc0ya12s2h6q-texlive-2024-env-texmfdist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (/nix/store/zxdi2d15ryfvilggk6jdzc0ya12s2h6q-texlive-2024-env-texmfdist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen144
+\captionmargin=\dimen145
+\caption@leftmargin=\dimen146
+\caption@rightmargin=\dimen147
+\caption@width=\dimen148
+\caption@indent=\dimen149
+\caption@parindent=\dimen150
+\caption@hangindent=\dimen151
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count268
+\c@continuedfloat=\count269
+)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count270
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count271
+) (/nix/store/zxdi2d15ryfvilggk6jdzc0ya12s2h6q-texlive-2024-env-texmfdist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count272
+\float@exts=\toks18
+\float@box=\box52
+\@float@everytoks=\toks19
+\@floatcapt=\box53
+) (/nix/store/zxdi2d15ryfvilggk6jdzc0ya12s2h6q-texlive-2024-env-texmfdist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (/nix/store/zxdi2d15ryfvilggk6jdzc0ya12s2h6q-texlive-2024-env-texmfdist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (/nix/store/zxdi2d15ryfvilggk6jdzc0ya12s2h6q-texlive-2024-env-texmfdist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count273
+\Gm@cntv=\count274
+\c@Gm@tempcnt=\count275
+\Gm@bindingoffset=\dimen152
+\Gm@wd@mp=\dimen153
+\Gm@odd@mp=\dimen154
+\Gm@even@mp=\dimen155
+\Gm@layoutwidth=\dimen156
+\Gm@layoutheight=\dimen157
+\Gm@layouthoffset=\dimen158
+\Gm@layoutvoffset=\dimen159
+\Gm@dimlist=\toks20
+) (/nix/store/zxdi2d15ryfvilggk6jdzc0ya12s2h6q-texlive-2024-env-texmfdist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count276
+\l__pdf_internal_box=\box54
+) (./main.aux (./chapters/introduction.aux) (./chapters/types_signaux.aux) (./chapters/enregistrement-signaux.aux) (./chapters/differentes-machines.aux))
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+ (/nix/store/zxdi2d15ryfvilggk6jdzc0ya12s2h6q-texlive-2024-env-texmfdist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count277
+\scratchdimen=\dimen160
+\scratchbox=\box55
+\nofMPsegments=\count278
+\nofMParguments=\count279
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count280
+\MPscratchDim=\dimen161
+\MPnumerator=\count281
+\makeMPintoPDFobject=\count282
+\everyMPtoPDFconversion=\toks22
+) (/nix/store/zxdi2d15ryfvilggk6jdzc0ya12s2h6q-texlive-2024-env-texmfdist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/nix/store/zxdi2d15ryfvilggk6jdzc0ya12s2h6q-texlive-2024-env-texmfdist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 17.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 17.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 17.
+
+
+[1
+
+{/nix/store/ndzl7br6nmxzlj5xzabyim79alf1i823-texlive-2024-env/share/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./main.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 2.
+)
+\tf@toc=\write3
+\openout3 = `main.toc'.
+
+
+
+[2]
+\openout2 = `chapters/introduction.aux'.
+
+ (./chapters/introduction.tex)
+
+[3
+
+]
+\openout2 = `chapters/types_signaux.aux'.
+
+ (./chapters/types_signaux.tex
+<images/tactique-cdg.png, id=18, 254.9525pt x 406.51875pt>
+File: images/tactique-cdg.png Graphic file (type png)
+<use images/tactique-cdg.png>
+Package pdftex.def Info: images/tactique-cdg.png  used on input line 40.
+(pdftex.def)             Requested size: 89.21913pt x 142.26378pt.
+<images/tactique-cdp.png, id=19, 446.66875pt x 322.20375pt>
+File: images/tactique-cdp.png Graphic file (type png)
+<use images/tactique-cdp.png>
+Package pdftex.def Info: images/tactique-cdp.png  used on input line 47.
+(pdftex.def)             Requested size: 197.22322pt x 142.26378pt.
+
+
+[4
+
+
+
+{/nix/store/zxdi2d15ryfvilggk6jdzc0ya12s2h6q-texlive-2024-env-texmfdist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./images/tactique-cdg.png (PNG copy)> <./images/tactique-cdp.png>]
+<images/legende.png, id=27, 702.625pt x 523.9575pt>
+File: images/legende.png Graphic file (type png)
+<use images/legende.png>
+Package pdftex.def Info: images/legende.png  used on input line 84.
+(pdftex.def)             Requested size: 226.48395pt x 168.89305pt.
+
+
+[5 <./images/legende.png>]
+<images/analyse_12_zone.png, id=31, 472.76625pt x 654.94687pt>
+File: images/analyse_12_zone.png Graphic file (type png)
+<use images/analyse_12_zone.png>
+Package pdftex.def Info: images/analyse_12_zone.png  used on input line 117.
+(pdftex.def)             Requested size: 181.18958pt x 284.52983pt.
+<images/analyse_statique.png, id=33, 472.01344pt x 655.69969pt>
+File: images/analyse_statique.png Graphic file (type png)
+<use images/analyse_statique.png>
+Package pdftex.def Info: images/analyse_statique.png  used on input line 124.
+(pdftex.def)             Requested size: 181.18195pt x 284.5267pt.
+<images/analyse_2_pieds.png, id=34, 481.04718pt x 647.41875pt>
+File: images/analyse_2_pieds.png Graphic file (type png)
+<use images/analyse_2_pieds.png>
+Package pdftex.def Info: images/analyse_2_pieds.png  used on input line 130.
+(pdftex.def)             Requested size: 181.18498pt x 284.52925pt.
+
+
+[6]
+
+[7 <./images/analyse_12_zone.png> <./images/analyse_statique.png> <./images/analyse_2_pieds.png>]
+<images/emg.png, id=45, 529.98pt x 388.45125pt>
+File: images/emg.png Graphic file (type png)
+<use images/emg.png>
+Package pdftex.def Info: images/emg.png  used on input line 162.
+(pdftex.def)             Requested size: 226.48395pt x 166.00536pt.
+<images/trajectoires_3D.png, id=46, 542.77782pt x 334.24875pt>
+File: images/trajectoires_3D.png Graphic file (type png)
+<use images/trajectoires_3D.png>
+Package pdftex.def Info: images/trajectoires_3D.png  used on input line 190.
+(pdftex.def)             Requested size: 226.48395pt x 139.47057pt.
+
+
+[8 <./images/emg.png>]
+<images/activites_posturo_cinetiques.png, id=51, 347.04657pt x 259.7203pt>
+File: images/activites_posturo_cinetiques.png Graphic file (type png)
+<use images/activites_posturo_cinetiques.png>
+Package pdftex.def Info: images/activites_posturo_cinetiques.png  used on input line 217.
+(pdftex.def)             Requested size: 226.48395pt x 169.49783pt.
+<images/spatio-temporels-ligne-droite.png, id=52, 529.98pt x 260.47313pt>
+File: images/spatio-temporels-ligne-droite.png Graphic file (type png)
+<use images/spatio-temporels-ligne-droite.png>
+Package pdftex.def Info: images/spatio-temporels-ligne-droite.png  used on input line 224.
+(pdftex.def)             Requested size: 226.48395pt x 111.31366pt.
+)
+
+[9 <./images/trajectoires_3D.png> <./images/activites_posturo_cinetiques.png>]
+
+[10 <./images/spatio-temporels-ligne-droite.png>]
+\openout2 = `chapters/enregistrement-signaux.aux'.
+
+ (./chapters/enregistrement-signaux.tex)
+
+[11
+
+
+
+]
+\openout2 = `chapters/differentes-machines.aux'.
+
+ (./chapters/differentes-machines.tex)
+
+[12
+
+
+
+] (./main.aux (./chapters/introduction.aux) (./chapters/types_signaux.aux) (./chapters/enregistrement-signaux.aux) (./chapters/differentes-machines.aux))
+ ***********
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-10-09>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 3602 strings out of 473579
+ 67842 string characters out of 5705100
+ 456057 words of memory out of 5000000
+ 26475 multiletter control sequences out of 15000+600000
+ 563611 words of font info for 54 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 67i,8n,77p,362b,486s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</nix/store/zxdi2d15ryfvilggk6jdzc0ya12s2h6q-texlive-2024-env-texmfdist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></nix/store/zxdi2d15ryfvilggk6jdzc0ya12s2h6q-texlive-2024-env-texmfdist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></nix/store/zxdi2d15ryfvilggk6jdzc0ya12s2h6q-texlive-2024-env-texmfdist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></nix/store/zxdi2d15ryfvilggk6jdzc0ya12s2h6q-texlive-2024-env-texmfdist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></nix/store/zxdi2d15ryfvilggk6jdzc0ya12s2h6q-texlive-2024-env-texmfdist/fonts/type1/public/amsfonts/cm/cmr10.pfb></nix/store/zxdi2d15ryfvilggk6jdzc0ya12s2h6q-texlive-2024-env-texmfdist/fonts/type1/public/amsfonts/cm/cmr12.pfb></nix/store/zxdi2d15ryfvilggk6jdzc0ya12s2h6q-texlive-2024-env-texmfdist/fonts/type1/public/amsfonts/cm/cmr17.pfb></nix/store/zxdi2d15ryfvilggk6jdzc0ya12s2h6q-texlive-2024-env-texmfdist/fonts/type1/public/amsfonts/cm/cmr9.pfb></nix/store/zxdi2d15ryfvilggk6jdzc0ya12s2h6q-texlive-2024-env-texmfdist/fonts/type1/public/amsfonts/cm/cmti10.pfb></nix/store/zxdi2d15ryfvilggk6jdzc0ya12s2h6q-texlive-2024-env-texmfdist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on main.pdf (12 pages, 1643044 bytes).
+PDF statistics:
+ 112 PDF objects out of 1000 (max. 8388607)
+ 60 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+
