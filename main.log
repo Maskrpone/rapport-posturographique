@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/nixos.org) (preloaded format=pdflatex 1980.1.1)  1 DEC 2024 09:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/nixos.org) (preloaded format=pdflatex 1980.1.1)  6 DEC 2024 14:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -204,9 +204,12 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count288
 \l__pdf_internal_box=\box54
-) (./main.aux (./chapters/introduction.aux) (./chapters/types_signaux.aux) (./chapters/enregistrement-signaux.aux) (./chapters/differentes-machines.aux
+) (./main.aux (./chapters/introduction.aux) (./chapters/pression_plantaire.aux) (./chapters/analyse-marche.aux
 
-LaTeX Warning: Label `fig:exemple_posturographie' multiply defined.
+LaTeX Warning: Label `fig:winposture' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:winposture' multiply defined.
 
 ))
 \openout1 = `main.aux'.
@@ -316,177 +319,97 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 [2]
 \openout2 = `chapters/introduction.aux'.
 
- (./chapters/introduction.tex)
+ (./chapters/introduction.tex
+<images/introduction/dynamique.png, id=64, 561.09625pt x 369.38pt>
+File: images/introduction/dynamique.png Graphic file (type png)
+<use images/introduction/dynamique.png>
+Package pdftex.def Info: images/introduction/dynamique.png  used on input line 39.
+(pdftex.def)             Requested size: 226.48395pt x 149.09645pt.
+<images/introduction/statique.png, id=65, 513.92pt x 271.0125pt>
+File: images/introduction/statique.png Graphic file (type png)
+<use images/introduction/statique.png>
+Package pdftex.def Info: images/introduction/statique.png  used on input line 55.
+(pdftex.def)             Requested size: 226.48395pt x 119.43608pt.
+)
 
 [3
 
-]
-\openout2 = `chapters/types_signaux.aux'.
+ <./images/introduction/dynamique.png>]
 
- (./chapters/types_signaux.tex
-<images/tactique-cdg.png, id=195, 254.9525pt x 406.51875pt>
-File: images/tactique-cdg.png Graphic file (type png)
-<use images/tactique-cdg.png>
-Package pdftex.def Info: images/tactique-cdg.png  used on input line 40.
-(pdftex.def)             Requested size: 89.21913pt x 142.26378pt.
-<images/tactique-cdp.png, id=196, 446.66875pt x 322.20375pt>
-File: images/tactique-cdp.png Graphic file (type png)
-<use images/tactique-cdp.png>
-Package pdftex.def Info: images/tactique-cdp.png  used on input line 47.
-(pdftex.def)             Requested size: 197.22322pt x 142.26378pt.
+[4 <./images/introduction/statique.png>]
+\openout2 = `chapters/pression_plantaire.aux'.
 
+ (./chapters/pression_plantaire.tex
+<images/pression_plantaire/plateforme-stabilometrique.png, id=77, 916.42375pt x 651.43375pt>
+File: images/pression_plantaire/plateforme-stabilometrique.png Graphic file (type png)
+<use images/pression_plantaire/plateforme-stabilometrique.png>
+Package pdftex.def Info: images/pression_plantaire/plateforme-stabilometrique.png  used on input line 35.
+(pdftex.def)             Requested size: 200.13159pt x 142.26378pt.
+<images/pression_plantaire/winposture.png, id=78, 964.60374pt x 739.76375pt>
+File: images/pression_plantaire/winposture.png Graphic file (type png)
+<use images/pression_plantaire/winposture.png>
+Package pdftex.def Info: images/pression_plantaire/winposture.png  used on input line 40.
+(pdftex.def)             Requested size: 185.49913pt x 142.26378pt.
+<images/pression_plantaire/satel.png, id=79, 453.695pt x 219.82124pt>
+File: images/pression_plantaire/satel.png Graphic file (type png)
+<use images/pression_plantaire/satel.png>
+Package pdftex.def Info: images/pression_plantaire/satel.png  used on input line 45.
+(pdftex.def)             Requested size: 293.63138pt x 142.26378pt.
 
-[4
+Overfull \hbox (89.79721pt too wide) in paragraph at lines 45--46
+ [][] 
+ []
 
-
-
-{/nix/store/zxdi2d15ryfvilggk6jdzc0ya12s2h6q-texlive-2024-env-texmfdist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./images/tactique-cdg.png (PNG copy)> <./images/tactique-cdp.png>]
-<images/legende.png, id=206, 702.625pt x 523.9575pt>
-File: images/legende.png Graphic file (type png)
-<use images/legende.png>
-Package pdftex.def Info: images/legende.png  used on input line 84.
-(pdftex.def)             Requested size: 226.48395pt x 168.89305pt.
-
-
-[5 <./images/legende.png>]
-<images/analyse_12_zone.png, id=212, 472.76625pt x 654.94687pt>
-File: images/analyse_12_zone.png Graphic file (type png)
-<use images/analyse_12_zone.png>
-Package pdftex.def Info: images/analyse_12_zone.png  used on input line 117.
-(pdftex.def)             Requested size: 181.18958pt x 284.52983pt.
-<images/analyse_statique.png, id=214, 472.01344pt x 655.69969pt>
-File: images/analyse_statique.png Graphic file (type png)
-<use images/analyse_statique.png>
-Package pdftex.def Info: images/analyse_statique.png  used on input line 124.
-(pdftex.def)             Requested size: 181.18195pt x 284.5267pt.
-<images/analyse_2_pieds.png, id=215, 481.04718pt x 647.41875pt>
-File: images/analyse_2_pieds.png Graphic file (type png)
-<use images/analyse_2_pieds.png>
-Package pdftex.def Info: images/analyse_2_pieds.png  used on input line 130.
-(pdftex.def)             Requested size: 181.18498pt x 284.52925pt.
-
-
-[6]
-
-[7 <./images/analyse_12_zone.png> <./images/analyse_statique.png> <./images/analyse_2_pieds.png>]
-<images/emg.png, id=229, 529.98pt x 388.45125pt>
-File: images/emg.png Graphic file (type png)
-<use images/emg.png>
-Package pdftex.def Info: images/emg.png  used on input line 162.
-(pdftex.def)             Requested size: 226.48395pt x 166.00536pt.
-<images/trajectoires_3D.png, id=230, 542.77782pt x 334.24875pt>
-File: images/trajectoires_3D.png Graphic file (type png)
-<use images/trajectoires_3D.png>
-Package pdftex.def Info: images/trajectoires_3D.png  used on input line 190.
-(pdftex.def)             Requested size: 226.48395pt x 139.47057pt.
-
-
-[8 <./images/emg.png>]
-<images/activites_posturo_cinetiques.png, id=237, 347.04657pt x 259.7203pt>
-File: images/activites_posturo_cinetiques.png Graphic file (type png)
-<use images/activites_posturo_cinetiques.png>
-Package pdftex.def Info: images/activites_posturo_cinetiques.png  used on input line 217.
-(pdftex.def)             Requested size: 226.48395pt x 169.49783pt.
-<images/spatio-temporels-ligne-droite.png, id=238, 529.98pt x 260.47313pt>
-File: images/spatio-temporels-ligne-droite.png Graphic file (type png)
-<use images/spatio-temporels-ligne-droite.png>
-Package pdftex.def Info: images/spatio-temporels-ligne-droite.png  used on input line 224.
-(pdftex.def)             Requested size: 226.48395pt x 111.31366pt.
+<images/pression_plantaire/winposture2.png, id=80, 1009.7725pt x 727.71875pt>
+File: images/pression_plantaire/winposture2.png Graphic file (type png)
+<use images/pression_plantaire/winposture2.png>
+Package pdftex.def Info: images/pression_plantaire/winposture2.png  used on input line 53.
+(pdftex.def)             Requested size: 394.8112pt x 284.52756pt.
 )
 
-[9 <./images/trajectoires_3D.png> <./images/activites_posturo_cinetiques.png>]
-
-[10 <./images/spatio-temporels-ligne-droite.png>]
-\openout2 = `chapters/enregistrement-signaux.aux'.
-
- (./chapters/enregistrement-signaux.tex)
-
-[11
+[5
 
 
 
-]
-\openout2 = `chapters/differentes-machines.aux'.
+{/nix/store/zxdi2d15ryfvilggk6jdzc0ya12s2h6q-texlive-2024-env-texmfdist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 
- (./chapters/differentes-machines.tex
-<images/OR6.png, id=259, 733.74126pt x 530.98375pt>
-File: images/OR6.png Graphic file (type png)
-<use images/OR6.png>
-Package pdftex.def Info: images/OR6.png  used on input line 24.
-(pdftex.def)             Requested size: 196.59013pt x 142.26378pt.
-<images/AMTI.jpeg, id=260, 1084.05pt x 1445.4pt>
-File: images/AMTI.jpeg Graphic file (type jpg)
-<use images/AMTI.jpeg>
-Package pdftex.def Info: images/AMTI.jpeg  used on input line 29.
-(pdftex.def)             Requested size: 106.69106pt x 142.26378pt.
-<images/xsens.png, id=263, 709.65125pt x 608.2725pt>
-File: images/xsens.png Graphic file (type png)
-<use images/xsens.png>
-Package pdftex.def Info: images/xsens.png  used on input line 58.
-(pdftex.def)             Requested size: 165.96675pt x 142.26378pt.
-<images/mtw_awinda.jpg, id=264, 868.24374pt x 313.67188pt>
-File: images/mtw_awinda.jpg Graphic file (type jpg)
-<use images/mtw_awinda.jpg>
-Package pdftex.def Info: images/mtw_awinda.jpg  used on input line 63.
-(pdftex.def)             Requested size: 203.82533pt x 142.26622pt.
+[6 <./images/pression_plantaire/plateforme-stabilometrique.png (PNG copy)> <./images/pression_plantaire/winposture.png (PNG copy)> <./images/pression_plantaire/satel.png> <./images/pression_plantaire/winposture2.png (PNG copy)>]
+\openout2 = `chapters/analyse-marche.aux'.
 
-
-[12
-
-
-
- <./images/OR6.png> <./images/AMTI.jpeg>]
-<images/plateforme-stabilometrique.png, id=272, 916.42375pt x 651.43375pt>
-File: images/plateforme-stabilometrique.png Graphic file (type png)
-<use images/plateforme-stabilometrique.png>
-Package pdftex.def Info: images/plateforme-stabilometrique.png  used on input line 89.
-(pdftex.def)             Requested size: 200.13159pt x 142.26378pt.
-<images/winposture.png, id=273, 964.60374pt x 739.76375pt>
-File: images/winposture.png Graphic file (type png)
-<use images/winposture.png>
-Package pdftex.def Info: images/winposture.png  used on input line 94.
+ (./chapters/analyse-marche.tex
+File: images/pression_plantaire/winposture.png Graphic file (type png)
+<use images/pression_plantaire/winposture.png>
+Package pdftex.def Info: images/pression_plantaire/winposture.png  used on input line 16.
 (pdftex.def)             Requested size: 185.49913pt x 142.26378pt.
-<images/winposture-graph.png, id=274, 1009.7725pt x 727.71875pt>
-File: images/winposture-graph.png Graphic file (type png)
-<use images/winposture-graph.png>
-Package pdftex.def Info: images/winposture-graph.png  used on input line 99.
-(pdftex.def)             Requested size: 203.83067pt x 142.26546pt.
+<images/analyse_marche/winposture_ellipse.png, id=93, 411.5375pt x 293.095pt>
+File: images/analyse_marche/winposture_ellipse.png Graphic file (type png)
+<use images/analyse_marche/winposture_ellipse.png>
+Package pdftex.def Info: images/analyse_marche/winposture_ellipse.png  used on input line 21.
+(pdftex.def)             Requested size: 199.75244pt x 142.26378pt.
+<images/analyse_marche/winposture_rapport.png, id=94, 410.53375pt x 241.90375pt>
+File: images/analyse_marche/winposture_rapport.png Graphic file (type png)
+<use images/analyse_marche/winposture_rapport.png>
+Package pdftex.def Info: images/analyse_marche/winposture_rapport.png  used on input line 26.
+(pdftex.def)             Requested size: 241.4423pt x 142.26378pt.
+
+Overfull \hbox (14.95836pt too wide) in paragraph at lines 26--27
+ [][] 
+ []
+
+<images/analyse_marche/comparaison_yo_yf.png, id=95, 808.01875pt x 580.1675pt>
+File: images/analyse_marche/comparaison_yo_yf.png Graphic file (type png)
+<use images/analyse_marche/comparaison_yo_yf.png>
+Package pdftex.def Info: images/analyse_marche/comparaison_yo_yf.png  used on input line 31.
+(pdftex.def)             Requested size: 198.13277pt x 142.26378pt.
 
 
-[13 <./images/xsens.png (PNG copy)> <./images/mtw_awinda.jpg>]
-<images/plateforme-posturographie.png, id=281, 710.655pt x 747.79375pt>
-File: images/plateforme-posturographie.png Graphic file (type png)
-<use images/plateforme-posturographie.png>
-Package pdftex.def Info: images/plateforme-posturographie.png  used on input line 122.
-(pdftex.def)             Requested size: 135.19934pt x 142.26378pt.
-<images/logiciel-analyse-posturographique.png, id=282, 759.83875pt x 582.175pt>
-File: images/logiciel-analyse-posturographique.png Graphic file (type png)
-<use images/logiciel-analyse-posturographique.png>
-Package pdftex.def Info: images/logiciel-analyse-posturographique.png  used on input line 127.
-(pdftex.def)             Requested size: 203.82587pt x 142.25658pt.
+[7
 
 
-[14 <./images/plateforme-stabilometrique.png (PNG copy)> <./images/winposture.png (PNG copy)> <./images/winposture-graph.png (PNG copy)>]
-<images/appareil-baropodometrie.png, id=290, 342.27875pt x 286.06876pt>
-File: images/appareil-baropodometrie.png Graphic file (type png)
-<use images/appareil-baropodometrie.png>
-Package pdftex.def Info: images/appareil-baropodometrie.png  used on input line 151.
-(pdftex.def)             Requested size: 170.21974pt x 142.26378pt.
-<images/logiciel-analyse-baropodometrie.png, id=291, 613.29124pt x 436.63126pt>
-File: images/logiciel-analyse-baropodometrie.png Graphic file (type png)
-<use images/logiciel-analyse-baropodometrie.png>
-Package pdftex.def Info: images/logiciel-analyse-baropodometrie.png  used on input line 156.
-(pdftex.def)             Requested size: 203.82787pt x 142.26324pt.
-<images/electrodes.png, id=292, 490.83376pt x 573.14125pt>
-File: images/electrodes.png Graphic file (type png)
-<use images/electrodes.png>
-Package pdftex.def Info: images/electrodes.png  used on input line 183.
-(pdftex.def)             Requested size: 121.83186pt x 142.26378pt.
 
+ <./images/analyse_marche/winposture_ellipse.png> <./images/analyse_marche/winposture_rapport.png> <./images/analyse_marche/comparaison_yo_yf.png (PNG copy)>])
 
-[15 <./images/plateforme-posturographie.png (PNG copy)> <./images/logiciel-analyse-posturographique.png (PNG copy)> <./images/appareil-baropodometrie.png (PNG copy)> <./images/logiciel-analyse-baropodometrie.png (PNG copy)>])
-
-[16 <./images/electrodes.png (PNG copy)>] (./main.aux (./chapters/introduction.aux) (./chapters/types_signaux.aux) (./chapters/enregistrement-signaux.aux) (./chapters/differentes-machines.aux))
+[8] (./main.aux (./chapters/introduction.aux) (./chapters/pression_plantaire.aux) (./chapters/analyse-marche.aux))
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-10-09>
@@ -496,21 +419,21 @@ L3 programming layer <2024-10-09>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 552A3D74888E4F8F6FEDD2772CE19AFB;8336.
+(rerunfilecheck)             Checksum: 45E18D3D53433D3CCCD5DD550481C440;1385.
  ) 
 Here is how much of TeX's memory you used:
- 10873 strings out of 473579
- 184846 string characters out of 5705100
- 577709 words of memory out of 5000000
- 33579 multiletter control sequences out of 15000+600000
+ 10654 strings out of 473579
+ 179665 string characters out of 5705100
+ 571507 words of memory out of 5000000
+ 33408 multiletter control sequences out of 15000+600000
  563611 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,8n,79p,635b,531s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</nix/store/zxdi2d15ryfvilggk6jdzc0ya12s2h6q-texlive-2024-env-texmfdist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></nix/store/zxdi2d15ryfvilggk6jdzc0ya12s2h6q-texlive-2024-env-texmfdist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></nix/store/zxdi2d15ryfvilggk6jdzc0ya12s2h6q-texlive-2024-env-texmfdist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></nix/store/zxdi2d15ryfvilggk6jdzc0ya12s2h6q-texlive-2024-env-texmfdist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></nix/store/zxdi2d15ryfvilggk6jdzc0ya12s2h6q-texlive-2024-env-texmfdist/fonts/type1/public/amsfonts/cm/cmr10.pfb></nix/store/zxdi2d15ryfvilggk6jdzc0ya12s2h6q-texlive-2024-env-texmfdist/fonts/type1/public/amsfonts/cm/cmr12.pfb></nix/store/zxdi2d15ryfvilggk6jdzc0ya12s2h6q-texlive-2024-env-texmfdist/fonts/type1/public/amsfonts/cm/cmr17.pfb></nix/store/zxdi2d15ryfvilggk6jdzc0ya12s2h6q-texlive-2024-env-texmfdist/fonts/type1/public/amsfonts/cm/cmr9.pfb></nix/store/zxdi2d15ryfvilggk6jdzc0ya12s2h6q-texlive-2024-env-texmfdist/fonts/type1/public/amsfonts/cm/cmti10.pfb></nix/store/zxdi2d15ryfvilggk6jdzc0ya12s2h6q-texlive-2024-env-texmfdist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on main.pdf (16 pages, 6681838 bytes).
+ 75i,8n,79p,386b,531s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</nix/store/zxdi2d15ryfvilggk6jdzc0ya12s2h6q-texlive-2024-env-texmfdist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></nix/store/zxdi2d15ryfvilggk6jdzc0ya12s2h6q-texlive-2024-env-texmfdist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></nix/store/zxdi2d15ryfvilggk6jdzc0ya12s2h6q-texlive-2024-env-texmfdist/fonts/type1/public/amsfonts/cm/cmr10.pfb></nix/store/zxdi2d15ryfvilggk6jdzc0ya12s2h6q-texlive-2024-env-texmfdist/fonts/type1/public/amsfonts/cm/cmr12.pfb></nix/store/zxdi2d15ryfvilggk6jdzc0ya12s2h6q-texlive-2024-env-texmfdist/fonts/type1/public/amsfonts/cm/cmr17.pfb></nix/store/zxdi2d15ryfvilggk6jdzc0ya12s2h6q-texlive-2024-env-texmfdist/fonts/type1/public/amsfonts/cm/cmr9.pfb></nix/store/zxdi2d15ryfvilggk6jdzc0ya12s2h6q-texlive-2024-env-texmfdist/fonts/type1/public/amsfonts/cm/cmti10.pfb></nix/store/zxdi2d15ryfvilggk6jdzc0ya12s2h6q-texlive-2024-env-texmfdist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on main.pdf (8 pages, 3431910 bytes).
 PDF statistics:
- 373 PDF objects out of 1000 (max. 8388607)
- 302 compressed objects within 4 object streams
- 65 named destinations out of 1000 (max. 500000)
- 383 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 150 PDF objects out of 1000 (max. 8388607)
+ 113 compressed objects within 2 object streams
+ 24 named destinations out of 1000 (max. 500000)
+ 118 words of extra memory for PDF output out of 10000 (max. 10000000)
 

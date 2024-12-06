@@ -1,34 +1,9 @@
 \contentsline {section}{\numberline {1}Introduction}{3}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Posturographie dynamique}{3}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Posturographie statique}{3}{subsection.1.2}%
-\contentsline {section}{\numberline {2}Différents types de signaux}{4}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Les forces et moments}{4}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Accélération et vitesses angulaires (Centrales inertielles, IMU)}{4}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Pressions plantaires (Systèmes de baropodométrie)}{5}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Potentiels électriques musculaires (EMG - Électromyographie)}{7}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Trajectoires segmentaires (systèmes de capture vidéo 3D)}{8}{subsection.2.5}%
-\contentsline {subsection}{\numberline {2.6}Paramètres spatio-temporels (pistes de marche électronique)}{9}{subsection.2.6}%
-\contentsline {section}{\numberline {3}Enregistrement des signaux}{11}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Enregistrement des forces et moments sur une plateformes de force}{11}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Enregistrement des accélérations et vitesses angulaires (IMU)}{11}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Enregistrement des pressions plantaires (Systèmes de baropodométrie)}{11}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Enregistrement des potentiels électriques musculaires (EMG)}{11}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}Enregistrement des trajectoires segmentaires (Systèmes vidéo 3D)}{11}{subsection.3.5}%
-\contentsline {subsection}{\numberline {3.6}Enregistrement des paramètres spatio-temporels (Systèmes filaires et tapis électroniques)}{11}{subsection.3.6}%
-\contentsline {section}{\numberline {4}Les différentes machines}{12}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Plateformes de force}{12}{subsection.4.1}%
-\contentsline {subsubsection}{\numberline {4.1.1}Exemples (liens) :}{12}{subsubsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.2}Centrales inertielles (IMU)}{12}{subsection.4.2}%
-\contentsline {subsubsection}{\numberline {4.2.1}Exemples :}{12}{subsubsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.3}Plateformes stabilométriques}{13}{subsection.4.3}%
-\contentsline {subsubsection}{\numberline {4.3.1}Exemples : }{13}{subsubsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.4}Plateformes de posturographie}{14}{subsection.4.4}%
-\contentsline {subsubsection}{\numberline {4.4.1}Exemples :}{14}{subsubsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.5}Systèmes de baropodométrie}{14}{subsection.4.5}%
-\contentsline {subsubsection}{\numberline {4.5.1}Exemples :}{15}{subsubsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.6}Appareils d’électromyographie (EMG)}{15}{subsection.4.6}%
-\contentsline {subsubsection}{\numberline {4.6.1}Exemples :}{15}{subsubsection.4.6.1}%
-\contentsline {subsection}{\numberline {4.7}Pistes de marche électroniques}{16}{subsection.4.7}%
-\contentsline {subsubsection}{\numberline {4.7.1}Exemples :}{16}{subsubsection.4.7.1}%
-\contentsline {subsection}{\numberline {4.8}Systèmes d’analyse vidéo du mouvement}{16}{subsection.4.8}%
-\contentsline {subsubsection}{\numberline {4.8.1}Exemples :}{16}{subsubsection.4.8.1}%
+\contentsline {section}{\numberline {2}Signal analysé en posturographie statique}{5}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Pression plantaire}{5}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Méthode d'enregistrement}{5}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Analyse de marché}{7}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Win-posturo}{7}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Fusyo}{7}{subsection.3.2}%
