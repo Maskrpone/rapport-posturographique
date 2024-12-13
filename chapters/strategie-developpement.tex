@@ -2,7 +2,38 @@
 
 \subsection{Paramètres d'étude}
 
+Lors de la phase de développement, l'accent sera mis sur une production d'interface graphique simple, ergonomique et intuitive.
+Le but est de fournir une application qui puisse être utilisée sans formation préalable, avec une installation la plus simple possible, sans sacrifier de fonctionnalité.
+
+Afin de faciliter le développement de la plateforme de visualisation, cette dernière sera séparée en deux parties, comme les conventions de développement actuelles l'entendent. 
+La partie dite \textbf{serveure} (backend) sera chargée des calcul et du rassemblement d'information. 
+La partie dite \textbf{cliente} (frontend) sera, quant à elle, chargée de l'affichage des résultats.
+
+Les utilisateurs verront uniquement la partie frontend, et selon les entrées spécifiés (les différents paramètres que les utilisateurs spécifieront), le frontend communiquera avec la partie backend pour que cette dernière effectue les calculs demandés, ou réunisse les informations nécessaires et les lui retourne.
+
 \subsubsection{Ressources}
+
+\textbf{Partie serveur} \\
+Le langage envisagé pour la partie serveure est le Python.
+Ce langage existe depuis 1991, et a été très largement adopté dans les communautés scientifiques.
+Python bénéficie aujourd'hui d'un nombre impressionnant de librairies qui seront extrêmement pratiques pour la manipulation des données, les calculs ainsi que les rendus graphiques.
+Pour créer le serveur qui permettra la connexion à une base de données ou les calculs divers, plusieurs choix sont possibles.
+Django est un framework python largement utilisé dans tous les domaines.
+
+En tant qu'alternative, la partie serveure pourrait aussi être développée en Ruby, un autre langage très utilisé pour les serveurs.
+Le framework utilisé dans ce cas là serait Ruby on Rails.
+
+\textbf{Partie cliente} \\
+Pour la partie cliente, le développement se fera avec NextJS ainsi qu'avec NodeJS.
+NextJS est un langage basé sur le TypeScript qui permet un grand contrôle sur la création d'interface et son comportement.
+C'est un framework moderne, reconnu pour sa sécurité et largement adopté par des multinationales.
+NodeJS est un framework JavaScript permettant de gérer des modules à ajouter à l'application (ici par exemple, les modules permettant la visualisation des graphiques, les modules de communications avec le backend, et d'autres).
+
+\textbf{Base de données} \\
+En termes de base de données pour le stockage des informations patients, il est judicieux d’opter pour une base de données locale (qui ne sera pas hébergée en ligne) écrite en SQLite.
+Ce langage permet de créer des bases de données légère et rapides.
+SQLite a été largement adopté pour tout type d’application nécessitant une base de données locale.
+
 \subsubsection{Points bloquants}
 
 \subsection{Protocoles établis}

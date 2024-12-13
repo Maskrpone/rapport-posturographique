@@ -1,0 +1,7 @@
+Python : https://www.python.org/
+
+Django : https://www.djangoproject.com/
+
+Ruby : https://www.ruby-lang.org/fr/
+
+Ruby on Rails : https://rubyonrails.org/
