@@ -1,6 +1,47 @@
 \section{Stratégie de développement}
 
-\subsection{Paramètres d'étude}
+
+\subsection{Analyse du marché}
+
+Cette analyse de marché a pour objectif de présenter les différentes 
+plateformes d'analyse de stabilométrie, en mettant en avant leurs spécificités et 
+fonctionnalités, afin d’identifier et répondre aux besoins des professionnels de 
+santé. 
+La plupart de ces plateformes de visualisation se distinguent par leur 
+convivialité et leur ergonomie, facilitant leur utilisation (Figure 5(a)).  
+Elles offrent la possibilité de créer et de gérer des protocoles d’acquisition 
+tout en permettant de paramétrer des normes conformes aux plateformes 
+stabilométriques utilisées. Ces logiciels intègrent des fonctionnalités avancées 
+telles que l’analyse fréquentielle et l’analyse temporelle (Figure 5(b)). Elles 
+permettent également de comparer les résultats des examens pour chaque patient, 
+avec des données facilement exportables. Les rapports et bilans générés sont 
+entièrement personnalisables ce qui permet au médecin de garder un bilan détaillé 
+du premier examen patient (Figure 5(c)).
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+      \centering
+      \includegraphics[height=5cm]{images/pression_plantaire/winposture2.png}
+    \caption{Logiciel de visualisation Winposture}\label{fig: Logiciel Winposture}
+    \end{subfigure}\\
+    \begin{subfigure}[b]{0.45\textwidth}
+      \centering
+      \includegraphics[height=4cm]{images/analyse_marche/FFT.png}
+      \caption{Fenêtres d’analyse fréquentielle Fusyo (FFT)}\label{fig:FFT}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.45\textwidth}
+      \centering
+      \includegraphics[height=5cm]{images/analyse_marche/WinPod4.png}
+    \caption{Les rapports générés personnalisable Win-pod}\label{fig:WinPod4}
+    \end{subfigure}
+    \caption{Rapports générés personnalisables Win-pod}\label{fig:global2}
+  \end{figure}
+
+\subsection{Conception}
+
+
+\subsubsection{Fonctionnalités intégrées}
 
 Lors de la phase de développement, l'accent sera mis sur une production d'interface graphique simple, ergonomique et intuitive.
 Le but est de fournir une application qui puisse être utilisée sans formation préalable, avec une installation la plus simple possible, sans sacrifier de fonctionnalité.
@@ -11,7 +52,7 @@ La partie dite \textbf{cliente} (frontend) sera, quant à elle, chargée de l'af
 
 Les utilisateurs verront uniquement la partie frontend, et selon les entrées spécifiés (les différents paramètres que les utilisateurs spécifieront), le frontend communiquera avec la partie backend pour que cette dernière effectue les calculs demandés, ou réunisse les informations nécessaires et les lui retourne.
 
-\subsubsection{Ressources}
+\subsubsection{Ressources utilisées}
 
 \textbf{Partie serveur} \\
 Le langage envisagé pour la partie serveure est le Python.
@@ -33,10 +74,6 @@ NodeJS est un framework JavaScript permettant de gérer des modules à ajouter �
 En termes de base de données pour le stockage des informations patients, il est judicieux d’opter pour une base de données locale (qui ne sera pas hébergée en ligne) écrite en SQLite.
 Ce langage permet de créer des bases de données légère et rapides.
 SQLite a été largement adopté pour tout type d’application nécessitant une base de données locale.
-
-\subsubsection{Points bloquants}
-
-\subsection{Protocoles établis}
 
 \subsubsection{Prototype}
 La plateforme de visualisation des signaux posturographique imaginée à été conçue 
