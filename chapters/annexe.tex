@@ -211,116 +211,72 @@ L'analyse spectrale permet de mettre en évidence l'aspect dynamique du contrôl
 La fréquence moyenne est le paramètre qui permet d'étudier le temps nécessaire au mouvement analysé pour revenir dans une position identique. 
 Son calcul passe par l'analyse de la distribution fréquentielle des amplitudes.
 
-\subsubsection{Puissance moyenne de la densité spectrale}
+\subsubsection{périodogramme}
+
+Réaliser un périodogramme est l'une des méthodes les plus simples pour estimer la \textbf{densité spectrale de puissance} d'un signal (ici posturographique).
+Cette méthode se base sur la transformée de Fourier discrète (échantillonnée) du signal.
+Plus précisément, le périodogramme est le carré du module de la TFD normalisée par la longueur du signal.
 
 \begin{equation}
-  P_{\text{Per}}(f) = \frac{1}{N T_e} \left| \sum_{n=0}^{N-1} x(nT_e)e^{-j2\pi n T_e f} \right|^2
-  \label{eq:P_Per}
+  P_{\text{Per}}(f)=\frac{1}{NT_e}\left|\sum\limits_{n=0}^{N-1}x(nT_e)e^{-j2\pi nT_ef}\right|^2
+  \label{eq:P_per}
 \end{equation}
 
-La puissance moyenne de la densité spectrale correspond à la quantité d'énergie contenue dans les oscillations du CdP.
-Généralement, une faible puissance indique une stabilité correcte, avec peu d'ajustements nécessaires.
-Une puissance élevée indiquerait des oscillations plus importantes, et donc une instabilité.
-
-Le processus consiste à :
-\begin{itemize}
-    \item \textbf{Appliquer la transformée de Fourier discrète (TFD)} au signal $x(nT_e)$ pour transformer le signal temporel en un spectre fréquentiel.
-    \item \textbf{Calculer la puissance} à chaque fréquence en prenant le carré du module de la TFD.
-    \item \textbf{Normaliser} par $\frac{1}{N T_e}$ pour obtenir une estimation de la DSP, qui représente la distribution de la puissance du signal dans le domaine fréquentiel.
-\end{itemize}
-
-Cette estimation permet de voir quelles fréquences contiennent le plus de puissance dans le signal, ce qui est crucial pour l'analyse fréquentielle dans divers domaines, comme la stabilographie, le traitement du signal audio, et d'autres types d'analyse de séries temporelles.
-
-On calcule alors l’estimateur de Welch à partir du périodogramme calculé comme ci-dessus.
-
-\begin{equation}
-  P_{Welch}(f) = \frac{1}{L} \sum_{l=1}^{L-1}P_l(f)
-  \label{P_Welch}
-\end{equation}
-
-\begin{equation}  
-  P_l(f) = \left( \frac{1}{K}\right) \left |\sum_{n=0}^{K-1} x(n+lK) w(n) e^{-j2\pi nf} \right |^2
-  \label{eq:Pl_f}
-\end{equation}
-
-L'estimateur de Welch est une amélioration du périodogramme classique pour estimer la densité spectrale de puissance (DSP) d'un signal. 
-Il permet de réduire la variance de l'estimation de la DSP, ce qui en fait une méthode plus robuste pour analyser des signaux bruités ou irréguliers. 
-Voici ce que l'estimateur de Welch apporte par rapport au périodogramme simple :
-
-\textbf{1. Réduction de la variance :}
-La périodogramme classique a tendance à être un estimateur à variance élevée, c'est-à-dire que ses résultats peuvent fluctuer de manière importante d'un signal à l'autre, même si ceux-ci ont une structure similaire. 
-Cela peut rendre l'analyse spectrale moins fiable. 
-L'estimateur de Welch réduit cette variance en moyennant plusieurs estimations de la DSP obtenues à partir de segments du signal.
-
-\textbf{2. Segmenter et fenêtrer le signal :}
-L'algorithme de Welch divise le signal en plusieurs segments qui se chevauchent partiellement (typiquement de 50\%), et applique une fenêtrage à chaque segment (souvent une fenêtre de Hanning ou de Hamming). 
-
-Ce processus présente plusieurs avantages:
-\begin{itemize}
-    \item \textbf Segmenter le signal permet de découper le signal en morceaux plus petits, ce qui donne plusieurs petites estimations de la DSP au lieu d'une seule estimation basée sur tout le signal.
-    \item \textbf Fenêtrer chaque segment aide à atténuer les discontinuités aux bords des segments, qui pourraient introduire des artefacts dans le domaine fréquentiel, comme des fuites spectrales.
-\end{itemize}
-
-\textbf{3. Chevauchement des segments}
-Les chevauchements des segments (souvent 50\%) augmentent la quantité d'information utilisée pour chaque estimation locale, améliorant ainsi la stabilité de l'estimation globale. 
-Cela permet d'améliorer la résolution fréquentielle tout en conservant une meilleure estimation des puissances.
-
-\textbf{4. Moyenne des DSP :}
-Après avoir calculé la transformée de Fourier et le périodogramme pour chaque segment, l'algorithme de Welch prend la moyenne des densités spectrales de puissance (DSP) obtenues. 
-Cette moyenne réduit la variance des résultats et améliore la stabilité de l'estimation. 
-Le fait de mesurer plusieurs estimations atténue également les fluctuations dues au bruit.
-
-L'estimateur de Welch apporte certains avantages : 
-\begin{itemize}
-    \item  \textbf{Variance plus fiable} : Comme chaque périodogramme segmenté est moyenné, l'estimateur de Welch a une variance significativement plus fiable que le périodogramme classique, offrant une estimation plus fiable.
-    \item \textbf{Meilleure résolution fréquentielle} : Même si chaque segment est plus court que le signal original, l'utilisation du chevauchement permet de conserver une bonne résolution fréquentielle tout en réduisant la variance.
-    \item  \textbf{Atténuation des fuites spectrales} : l'application d'une fenêtre sur chaque segment réduit les artefacts induits par les discontinuités aux bords du signal.
-\end{itemize}
-
-\begin{figure}[H]
-    \centering
-    \begin{subfigure}[b]{0.45\textwidth}
-        \centering
-        \includegraphics[height=5cm]{images/methode/periodogramme.png}
-        \caption{Périodogramme de la densité spectrale de puissance}\label{fig:periodogramme}
-    \end{subfigure}
-    \begin{subfigure}[b]{0.45\textwidth}
-        \centering
-        \includegraphics[height=5cm]{images/methode/welch.png}
-        \caption{Estimation de Welch de la densité spectrale de puissance}\label{fig:welch}
-    \end{subfigure}
-    \caption{Comparaison entre le périodogramme et l'estimation de Welch de la densité spectrale de puissance}\label{fig:periodogramme_welch}
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=8cm]{images/methode/periodogramme.png}
+  \caption{Illustration d'un périodogramme d'un signal posturographique}
+  \label{fig:periodogramme}
 \end{figure}
 
-\subsubsection{Pente du spectre de puissance}
+On peut observer sur la figure \ref{fig:periodogramme} la répartition de l'énergie par fréquence.
+Concrètement, de l'énergie dans les fréquences basses correspond à des ajustements lents, montrant une bonne stabilité contrairement à si on en avait trouvé dans les hautes fréquences.
 
-Dans le cadre de la stabilographie, l’analyse du spectre dans le plan log-log permet de mieux comprendre les mécanismes de régulation posturale et de quantifier la stabilité ou l’instabilité en fonction des
-fréquences des oscillations du CoP. La régression linéaire dans ce contexte permet d’estimer la pente du
-spectre et de révéler les caractéristiques de contrôle postural, avec des applications potentielles pour le
-diagnostic ou la suivi clinique des troubles de l’équilibre, ou encore pour la prévention des chutes chez
-les personnes âgées.
+\subsubsection{Puissance moyenne de la densité spectrale et estimateur de Welch}
 
-Interprétation en stabilographie :
+L'estimateur de Welch est une amélioration apportée au périodogramme. \\
+Cette méthode permet d'augmenter la qualité de l'estimation de la densité spectrale de puissance.
+Cette méthode passe par le moyennage de $L$ périodogrammes partiels.
+Un périodogramme partiel est simplement le périodogramme estimé d'un \textbf{segment du signal} (longueur du segment noté $l$).
+Chaque segment du signal est fenêtré afin de réduire les effets de bord (distortions) qui peuvent apparaître lors de la TFD.
 
-\begin{itemize}
-    \item Stabilité posturale élevée : Lorsque la pente est fortement négative (par exemple au alentour de-2 ou plus), cela signifie que la puissance des oscillations posturales diminue rapidement avec la
-    fréquence. Dans ce cas, les oscillations à basse fréquence dominent, ce qui suggère un contrôle
-    postural efficace avec des ajustements lents et stables. Cela pourrait être typique chez un jeune
-    adulte en bonne santé.
+\begin{equation}
+  P_{\text{Welch}}(f)=\frac{1}{L}\sum\limits_{l=1}^{L-1}P_l(f)
+  \label{eq:P_Welch}
+\end{equation}
 
-    \item Instabilité posturale : Lorsque la pente est moins négative (par exemple, autour de-1), cela peut
-    signifier que les oscillations à haute fréquence contribuent davantage au contrôle postural. Ce type
-    de spectre pourrait être observé chez des individus plus âgés ou des personnes ayant des troubles de
-    l’équilibre, car il indique un contrôle moins stable et une plus grande participation des ajustements
-    réflexes ou involontaires.
-\end{itemize}
+\begin{equation} 
+  P_l(f) = \frac{1}{K}\left|\sum\limits_{n=0}^{K-1}x(n+lK)\omega(n)e^{-j2\pi nf}\right|^2
+  \label{eq:P_l}
+\end{equation}
 
+$P_l(f)$ est le périodogramme de chaque segment (on utilise la formule \ref{eq:P_per}).
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=8cm]{images/methode/welch.png}
+  \caption{Illustration de la densité spectrale par estimateur de Welch}
+  \label{fig:welch}
+\end{figure}
+
+La figure \ref{fig:welch} montrant les valeurs estimées par calcul de l'estimateur de Welch se base sur les mêmes données médicales que la figure \ref{fig:periodogramme}.
+
+\subsubsection{Analyse de la pente du spectre de puissance et régression}
+
+L’analyse du spectre dans le plan log-log permet de mieux comprendre les mécanismes de régulation posturale et de quantifier la stabilité ou l’instabilité en fonction des fréquences des oscillations du CdM ou CdP. 
+La régression linéaire dans ce contexte permet d’estimer la pente du spectre et de révéler les caractéristiques de contrôle postural.
 
 \begin{figure}[H]
     \centering
     \includegraphics[height=5cm]{images/methode/analyse_spec_regre_lin.png}
     \caption{Analyse spectrale et régression linéaire}\label{fig:regression_lineaire}
 \end{figure}
+
+Lorsque la pente est fortement négative, (par convention aux alentours de $-2$ ou plus), cela signifie que les oscillations posturales à basse fréquences dominent, ce qui peut souligner un contrôle postural efficace.
+
+Lorsque la pente est moins négative, (aux alentours de $-1$), cela montre que les oscillations à hautes fréquences contribuent beaucoup plus au maintien de la stabilité.
+Il est possible d'en déduire un mauvais contrôle postural, souvent observé chez les personnes agées.
+
 
 \newpage
 \section{Annexe 3 : protocole complet}
