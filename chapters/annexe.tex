@@ -147,15 +147,16 @@ Plus ces mesures sont basses, plus l'habileté est grande.
 \end{equation}
 
 \begin{equation}
-  R_{ML}= max \left ( \text CoM_{ML} \right ) - min\left ( \text CoM_{ML} \right )   
+  R_{ML}= max \left ( \text CoM_{ML} \right ) - min\left ( \text CoM_{ML} \right )
   \label{eq:R_ML}
 \end{equation}
-
 
 L'écart maximal est la différence entre la position maximale et minimale du CdM et est défini suivant les deux axes AP et ML.
 Une augmentation d'une de ces valeurs peut être interprétable en une baisse de la capacité à maintenir l'équilibre postural.
 
 \subsection{Surface de l'ellipse de confiance (CEA)}
+
+% TODO : Reformuler cette partie
 
 \begin{equation}
 CEA= 6\pi \sqrt{ \left ( \frac{\sum_{n=1}^{N} \left (\text{CoM}_{AP}(n) \right)^2 \times \sum_{n=1}^{N} \left ( \text{CoM}_{ML}(n) \right)^2}{N^2} \right ) - \left (\frac{\sum_{n=1}^N \text{CoM}_{AP} \times CoM_{ML}}{N} \right)^2}
@@ -210,13 +211,6 @@ Plus précisément, le périodogramme est le carré du module de la TFD normalis
   \label{eq:P_per}
 \end{equation}
 
-\begin{figure}[ht]
-  \centering
-  \includegraphics[width=8cm]{images/methode/periodogramme.png}
-  \caption{Illustration d'un périodogramme d'un signal posturographique}
-  \label{fig:periodogramme}
-\end{figure}
-
 On peut observer sur la figure \ref{fig:periodogramme} la répartition de l'énergie par fréquence.
 Concrètement, de l'énergie dans les fréquences basses correspond à des ajustements lents, montrant une bonne stabilité contrairement à si on en avait trouvé dans les hautes fréquences.
 
@@ -242,9 +236,21 @@ $P_l(f)$ est le périodogramme de chaque segment (on utilise la formule \ref{eq:
 
 \begin{figure}[ht]
   \centering
-  \includegraphics[width=8cm]{images/methode/welch.png}
-  \caption{Illustration de la densité spectrale par estimateur de Welch}
-  \label{fig:welch}
+  \begin{subfigure}[b]{0.45\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{images/methode/periodogramme.png}
+    \caption{Illustration d'un périodogramme d'un signal posturographique}
+    \label{fig:periodogramme}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[b]{0.45\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{images/methode/welch.png}
+    \caption{Illustration de la densité spectrale par estimateur de Welch}
+    \label{fig:welch}
+  \end{subfigure}
+  \caption{Comparaison des résultats entre un périodogramme et l'estimateur de Welch}
+  \label{fig:comparaison_period-welch}
 \end{figure}
 
 La figure \ref{fig:welch} montrant les valeurs estimées par calcul de l'estimateur de Welch se base sur les mêmes données médicales que la figure \ref{fig:periodogramme}.
