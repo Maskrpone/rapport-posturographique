@@ -31,7 +31,6 @@ Les rapports et bilans générés sont entièrement personnalisables ce qui perm
     \caption{Rapports générés personnalisables Win-pod}\label{fig:global2}
 \end{figure}
 
-
 \subsection{Conception}
 
 \subsubsection{Fonctionnalités intégrées}
@@ -39,7 +38,7 @@ Lors de la phase de développement, l'accent sera mis sur une production d'inter
 Le but est de fournir une application qui puisse être utilisée sans formation préalable, avec une installation la plus simple possible, sans sacrifier de fonctionnalité.
 
 Afin de faciliter le développement de la plateforme de visualisation, cette dernière sera séparée en deux parties, comme les conventions de développement actuelles l'entendent. 
-La partie dite \textbf{serveure} (backend) sera chargée des calcul et du rassemblement d'information. 
+La partie dite \textbf{serveur} (backend) sera chargée des calculs et du rassemblement d'information. 
 La partie dite \textbf{cliente} (frontend) sera, quant à elle, chargée de l'affichage des résultats.
 
 Les utilisateurs verront uniquement la partie frontend, et selon les entrées spécifiés (les différents paramètres que les utilisateurs spécifieront), le frontend communiquera avec la partie backend pour que cette dernière effectue les calculs demandés, ou réunisse les informations nécessaires et les lui retourne.
@@ -68,25 +67,15 @@ Ce langage permet de créer des bases de données légère et rapides.
 SQLite\textsuperscript{\ref{source:19}} a été largement adopté pour tout type d’application nécessitant une base de données locale.
 
 \subsubsection{Prototype}
-La plateforme de visualisation des signaux posturographique imaginée à été conçue 
-pour être intuitive, simple d’utilisation ainsi que ergonomique facilitant au 
-quotidien le diagnostic du médecin. Dès la page d’accueil, ce dernier peut accéder 
-à l’ensemble de ses dossiers patients afin d’assurer un suivi personnalisé 
-(Figure \ref{fig:accueil_prototype}). La plateforme permet également de visualiser les données 
-enregistrées par la plateforme stabilométrique 
-De plus, il est possible de visualiser les données 
-(enregistrées par la plateforme stabilométrique) dans les domaines fréquentiels 
-et temporels, tout en offrant la possibilité de sélectionner différents protocoles 
-expérimentaux afin de comparer les résultats obtenus (Figure \ref{fig:visualisation_protocole_prototype}). 
-Le médecin a la possibilité d’ajuster différents paramètres, tels que la fréquence 
-d’échantillonnage ou la durée d’observation des relevés de données.  Il dispose 
-aussi d’un accès à des données synthétiques clés, comme la moyenne, la médiane ou 
-l’écart-type, pour une analyse rapide (Figure \ref{fig:informations_generales_prototype}). Par ailleurs, la plateforme 
-permet d’évaluer la stabilité du patient à travers divers examens cliniques, 
-favorisant une corrélation entre les résultats cliniques et les données 
-enregistrées. Enfin, chaque observation peut être exportée au format PDF à la fin 
-de l’analyse, incluant les commentaires du médecin pour conserver une trace des 
-conclusions tirées lors de l’étude.
+
+La plateforme de visualisation des signaux posturographique imaginée à été conçue pour être intuitive, simple d’utilisation ainsi que ergonomique facilitant au quotidien le diagnostic du médecin. 
+Dès la page d’accueil, ce dernier peut accéder à l’ensemble de ses dossiers patients afin d’assurer un suivi personnalisé (Figure \ref{fig:accueil_prototype}). 
+La plateforme permet également de visualiser les données enregistrées par la plateforme stabilométrique. 
+De plus, il est possible de visualiser les données (enregistrées par la plateforme stabilométrique) dans les domaines fréquentiels et temporels, tout en offrant la possibilité de sélectionner différents protocoles expérimentaux afin de comparer les résultats obtenus (Figure \ref{fig:visualisation_protocole_prototype}). 
+Le médecin a la possibilité d’ajuster différents paramètres, tels que la fréquence d’échantillonnage ou la durée d’observation des relevés de données.
+Il dispose aussi d’un accès à des données synthétiques clés, comme la moyenne, la médiane ou l’écart-type, pour une analyse rapide (Figure \ref{fig:informations_generales_prototype}).
+Par ailleurs, la plateforme permet d’évaluer la stabilité du patient à travers divers examens cliniques, favorisant une corrélation entre les résultats cliniques et les données enregistrées.
+Enfin, chaque observation peut être exportée au format PDF à la fin de l’analyse, incluant les commentaires du médecin pour conserver une trace des conclusions tirées lors de l’étude.
 
 \begin{figure}[H]
     \centering
