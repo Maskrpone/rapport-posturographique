@@ -2,28 +2,22 @@
 
 \subsection{Analyse du marché}
 
-Cette analyse de marché a pour objectif de présenter les différentes 
-plateformes d'analyse de stabilométrie, en mettant en avant leurs spécificités et 
-fonctionnalités, afin d’identifier et répondre aux besoins des professionnels de 
-santé. 
-La plupart de ces plateformes de visualisation se distinguent par leur 
-convivialité et leur ergonomie, facilitant leur utilisation (Figure 5(a))\textsuperscript{\ref{source:13}}.  
-Elles offrent la possibilité de créer et de gérer des protocoles d’acquisition 
-tout en permettant de paramétrer des normes conformes aux plateformes 
-stabilométriques utilisées. Ces logiciels intègrent des fonctionnalités avancées 
-telles que l’analyse fréquentielle et l’analyse temporelle (Figure 5(b))\textsuperscript{\ref{source:14}}. Elles 
-permettent également de comparer les résultats des examens pour chaque patient, 
-avec des données facilement exportables. Les rapports et bilans générés sont 
-entièrement personnalisables ce qui permet au médecin de garder un bilan détaillé 
-du premier examen patient (Figure 5(c))\textsuperscript{\ref{source:15}}.
+Cette analyse de marché a pour objectif de présenter les différentes plateformes d'analyse de stabilométrie, en mettant en avant leurs spécificités et fonctionnalités, afin d’identifier et répondre aux besoins des professionnels de santé.
+La plupart de ces plateformes de visualisation se distinguent par leur convivialité et leur ergonomie, facilitant leur utilisation (Figure \ref{fig: Logiciel Winposture})\textsuperscript{\ref{source:13}}.
+Elles offrent la possibilité de créer et de gérer des protocoles d’acquisition tout en permettant de paramétrer des normes conformes aux plateformes stabilométriques utilisées. 
+Ces logiciels intègrent des fonctionnalités avancées telles que l’analyse fréquentielle et l’analyse temporelle (Figure \ref{fig:FFT})\textsuperscript{\ref{source:14}}. 
+Elles permettent également de comparer les résultats des examens pour chaque patient, avec des données facilement exportables. 
+Les rapports et bilans générés sont entièrement personnalisables ce qui permet au médecin de garder un bilan détaillé du premier examen patient (Figure \ref{fig:global2})\textsuperscript{\ref{source:15}}.
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=\textwidth]{images/pression_plantaire/winposture2.png}
+  \caption{Logiciel de visualisation Winposture}
+  \label{fig: Logiciel Winposture}
+\end{figure}
 
 \begin{figure}[H]
     \centering
-    \begin{subfigure}[b]{0.45\textwidth}
-      \centering
-      \includegraphics[width=5cm]{images/pression_plantaire/winposture2.png}
-    \caption{Logiciel de visualisation Winposture}\label{fig: Logiciel Winposture}
-    \end{subfigure}
     \begin{subfigure}[b]{0.45\textwidth}
       \centering
       \includegraphics[width=5cm]{images/analyse_marche/FFT.png}
@@ -53,13 +47,13 @@ Les utilisateurs verront uniquement la partie frontend, et selon les entrées sp
 \subsubsection{Ressources utilisées}
 
 \textbf{Partie serveur} \\
-Le langage envisagé pour la partie serveure est le Python.
-Ce langage existe depuis 1991, et a été très largement adopté dans les communautés scientifiques.
+Le langage envisagé pour la partie serveur est le Python.
+Ce langage existe depuis 1991, et a été très largement adopté par la communauté scientifique.
 Python bénéficie aujourd'hui d'un nombre impressionnant de librairies qui seront extrêmement pratiques pour la manipulation des données, les calculs ainsi que les rendus graphiques.
 Pour créer le serveur qui permettra la connexion à une base de données ou les calculs divers, plusieurs choix sont possibles.
 Django est un framework python largement utilisé dans tous les domaines.
 
-En tant qu'alternative, la partie serveure pourrait aussi être développée en Ruby, un autre langage très utilisé pour les serveurs.
+En tant qu'alternative, la partie serveur pourrait aussi être développée en Ruby, un autre langage très utilisé pour les serveurs.
 Le framework utilisé dans ce cas là serait Ruby on Rails.
 
 \textbf{Partie cliente} \\
@@ -87,7 +81,7 @@ expérimentaux afin de comparer les résultats obtenus (Figure \ref{fig:visualis
 Le médecin a la possibilité d’ajuster différents paramètres, tels que la fréquence 
 d’échantillonnage ou la durée d’observation des relevés de données.  Il dispose 
 aussi d’un accès à des données synthétiques clés, comme la moyenne, la médiane ou 
-l’écart-type, pour une analyse rapide (Figure \ref{fig:informations_generales_prototype}. Par ailleurs, la plateforme 
+l’écart-type, pour une analyse rapide (Figure \ref{fig:informations_generales_prototype}). Par ailleurs, la plateforme 
 permet d’évaluer la stabilité du patient à travers divers examens cliniques, 
 favorisant une corrélation entre les résultats cliniques et les données 
 enregistrées. Enfin, chaque observation peut être exportée au format PDF à la fin 

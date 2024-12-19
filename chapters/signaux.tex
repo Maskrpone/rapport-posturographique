@@ -56,6 +56,7 @@ Elles sont aussi utilisées pour suivre les progrès post-blessures ou post-chir
 Enfin, on peut aussi les mener dans le but d’optimiser les performances athlétiques en analysant les impacts au sol.
 
 \subsubsection{Examens cliniques}
+\label{subsubsec:protocole}
 
 L’équilibre postural d’un patient repose entièrement sur le bon fonctionnement de son système postural. 
 De légères perturbations ou dérèglements du fonctionnement de ce système postural peuvent  entraîner un déséquilibre. 
@@ -65,6 +66,8 @@ L’individu est alors examiné en position debout, talons joints, pieds ouverts
 Parmi ces nombreux examens (détaillés en annexe), certains sont fréquemment utilisés : le Romberg postural\textsuperscript{\ref{source:8}}, le test de piétinement de Fukuda\textsuperscript{\ref{source:9}} ou encore d’autres alternatives. 
 
 \subsubsection{Enregistrement des signaux}
+
+Les plateformes stabilométriques, a l’instar des plateformes de force, mettent particulièrement l’accent sur l'étude des mouvements posturaux en évaluant les forces verticales et les déplacements dans les plans horizontal et vertical. 
 Les plateformes stabilométriques, a l’instar des plateformes de force, mettent particulièrement l’accent sur l'étude des mouvements posturaux en évaluant les forces verticales et les déplacements dans les plans horizontal et vertical\textsuperscript{\ref{source:10}}. 
 Ces plateformes disposent fréquemment d’instruments additionnels, tels que des surfaces instables ou des systèmes de visualisation interactifs, pour perturber l'équilibre et examiner les réactions compensatoires du patient. 
 Ces dispositifs sont utilisés pour évaluer la stabilité posturale en position debout, notamment chez des patients atteints de troubles neurologiques ou vestibulaires. 
@@ -74,7 +77,7 @@ En gériatrie, ils permettent d'évaluer les risques de chute, et en sport, ils 
 Exemples : 
 \begin{itemize}
     \item Stabilo Stabilometric Platform 
-    \item Plateforme  Satel (Figure 3)
+    \item Plateforme  Satel (Figure \ref{fig:satel})
 \end{itemize}
 
 \begin{figure}[H]
@@ -84,41 +87,51 @@ Exemples :
 \end{figure}
  
 \subsubsection{Méthodes d’analyses}
-Pour analyser les signaux posturographiques, des relations mathématiques sont utilisées, permettant de dégager des valeurs numériques des courbes et des schémas. 
-Elles se basent sur le relevé du centre de pression à l’aide d’une plateforme stabilométrique et d’un protocole expérimental, tous deux décrits plus haut.
+
+Pour analyser les signaux posturographiques, des relations mathématiques sont utilisées, permettant de dégager des courbes et des schémas à partir des valeurs numériques. 
+Ces relations se basent sur le relevé du centre de pression à l’aide d’une plateforme stabilométrique (figure \ref{fig:satel}) et d’un protocole expérimental (voir [\ref{subsubsec:protocole}]).
+
 Le centre de pression (CdP) reflète les ajustements actifs du corps pour maintenir son équilibre. 
-Il est une conséquence des mouvements de ce qu’on appelle le centre de masse (CdM) ou centre de gravité. 
+Il est une conséquence des mouvements de ce que l'on appelle le centre de masse (CdM) ou centre de gravité. 
+
 Le CdM est le point théorique correspondant à la position moyenne de la masse corporelle. 
 Le corps ajuste constamment la position du CdP afin que les mouvements du CdM ne sortent pas de la surface du support (la zone délimitée par le contact des deux pieds au sol). 
 Si le CdM sort de cette surface, le corps ne peut plus maintenir son équilibre et une chute est alors possible.
 Ces ajustements engagés par le corps montrent alors que l’accélération du CdM est proportionnelle à la différence entre le CdM et le CdP.
+
 Une formule de relation entre le CdP et le CdM a été modélisée à partir de l’équation mécanique simple du pendule inversé:
 
 \begin{equation}
     CdP = CdM - \frac{h}{g} \times \frac{d^2 CdM}{dt^2} 
-    \label{eq:CdP}
+    % \label{eq:CdP}
 \end{equation}
 
 Cette relation est importante car elle permet d’augmenter la précision des outils mathématiques utilisés pour l’analyse des signaux posturographiques statiques d’un patient. 
 Il est à noter que ces outils sont tout de même applicables au CdP.
-Les différents outils mathématiques dont la littérature scientifique parle sont des formules mathématiques permettant la représentation des signaux posturographiques aussi bien dans le domaine spatio-temporel que dans le domaine fréquentiel. 
+
+Les méthodes d'analyse existantes permettent de rendre compte de la qualité ou l'existence des mécanismes de régulation que le corps met en place pour maintenir sa stabilité. 
+Il est possible de les analyser aussi bien dans le domaine spatio-temporel que dans le domaine fréquentiel.
 
 L’analyse spatio-temporelle permet de déterminer la qualité de l’équilibre dit orthostatique. 
 Elle reflète la capacité du corps d’un patient à maintenir un bon équilibre en position stationnaire droite. 
 Dans le domaine spatio-temporel, plusieurs formules sont souvent utilisées pour analyser la qualité de l’équilibre. 
-La position moyenne du CdM (voir formule \ref{eq:M_AP} et \ref{eq:M_ML}) permet d’interpréter l’équilibre de manière qualitative. 
-La vitesse moyenne du CdM renseigne sur la qualité de l’équilibre ainsi que sur la consommation énergétique du corps pour la régulation de la posture orthostatique. 
-Le calcul de la surface de l’ellipse de confiance (CEA) décrit l’évolution de l’ellipse de confiance regroupant un certain pourcentage du statokinésigramme. 
-Un statokinésigramme est une représentation graphique représentant la trajectoire du centre de masse, ou bien les déplacements du centre de pression d’un patient. 
-D’autres relations sont également couramment utilisées, comme le calcul de l’écart maximal, la valeur quadratique moyenne ou encore le quotient de Romberg.
-Dans le domaine fréquentiel, il est question d’analyse spectrale. 
+La position moyenne du CdM (voir formules \ref{eq:M_AP} et \ref{eq:M_ML}) permet d’interpréter l’équilibre de manière qualitative. 
+La vitesse moyenne du CdM (voir formules \ref{eq:MV_AP} et \ref{eq:MV_ML}) renseigne sur la qualité de l’équilibre ainsi que sur la consommation énergétique du corps pour la régulation de la posture orthostatique. 
+Le calcul de la surface de l’ellipse de confiance (CEA) (voir formule \ref{eq:CEA}) décrit l’évolution de l’ellipse de confiance regroupant un certain pourcentage du statokinésigramme. 
+Un statokinésigramme est une représentation graphique de la trajectoire du centre de masse, ou bien les déplacements du centre de pression d’un patient. 
+D’autres relations sont également couramment utilisées, comme le calcul de l’écart maximal (voir les formules \ref{eq:R_AP} et \ref{eq:R_ML}), la valeur quadratique moyenne (voir les formules \ref{eq:RMS_AP} et \ref{eq:RMS_ML} ou encore le quotient de Romberg (voir \ref{eq:QR}).
 
+Dans le domaine fréquentiel, il est question d’analyse spectrale. 
 L’analyse spectrale d’un signal permet d’extraire les différentes composantes présentes dans ce signal et de différencier les nombreux mécanismes utilisés dans le maintien de l’équilibre orthostatique. 
 Elle apporte des informations complémentaires à celles obtenues dans le domaine spatio-temporel. 
-Le couplage de ces deux types d’analyses permet une meilleure compréhension des mécanismes de maintien de l’équilibre d’un patient. 
+Le couplage de ces deux types d’analyse permet une meilleure compréhension des mécanismes de maintien de l’équilibre d’un patient. 
 Le calcul de la puissance moyenne de la densité spectrale permet de déterminer quelle fréquence domine dans le maintien de l’équilibre du patient. 
-La fréquence moyenne (ou centroïdale) permet d’estimer la fréquence centrale des oscillations du corps. 
-Les deux formules permettent de révéler une instabilité (si la fréquence est haute)\textsuperscript{\ref{source:12}}. 
-L’analyse de la pente du spectre de puissance permet aussi d’évaluer la stabilité d’un patient.
-Les formules et explications pour chacune des méthodes d’analyse décrites ci-dessus sont disponibles en annexe (annexe 2).
+Une des méthodes les plus utilisées est l'estimation du périodogramme (voir la section \ref{subsubsec:periodogramme}).
+L'estimateur de Welch (formule \ref{eq:P_Welch}) permet d'augmenter la qualité du périodogramme.
+L'estimateur du périodogramme et le calcul de l'estimateur de Welch sont des méthodes d'analyse permettant de visualiser la répartition de l'énergie par fréquence.
+La fréquence moyenne (ou centroïdale) (voir les formules \ref{eq:FM_AP} et \ref{eq:FM_ML}) permet d’estimer la fréquence centrale des oscillations du corps. 
+Cela permet d'estimer le temps nécessaire au mouvement analysé pour revenir dans une position initiale, et permettent de révéler une instabilité (si la fréquence est haute) \textsuperscript{\ref{source:12}}. 
+L’analyse de la pente du spectre de puissance (voir section \ref{subsubsec:pente}) permet aussi d’évaluer la stabilité d’un patient.
+
+Les formules et explications pour chacune des méthodes d’analyse décrites ci-dessus sont disponibles en annexe (annexe \ref{annexe:2}).
 

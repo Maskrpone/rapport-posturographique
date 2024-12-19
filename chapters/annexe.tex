@@ -75,6 +75,7 @@ Ici, on peut observer :
 
 \newpage
 \section{Annexe 2 : Méthodes d'analyse}
+\label{annexe:2}
 
 \subsection{Analyse spatio-temporelle}
 
@@ -212,6 +213,7 @@ La fréquence moyenne est le paramètre qui permet d'étudier le temps nécessai
 Son calcul passe par l'analyse de la distribution fréquentielle des amplitudes.
 
 \subsubsection{périodogramme}
+\label{subsubsec:periodogramme}
 
 Réaliser un périodogramme est l'une des méthodes les plus simples pour estimer la \textbf{densité spectrale de puissance} d'un signal (ici posturographique).
 Cette méthode se base sur la transformée de Fourier discrète (échantillonnée) du signal.
@@ -232,7 +234,7 @@ Plus précisément, le périodogramme est le carré du module de la TFD normalis
 On peut observer sur la figure \ref{fig:periodogramme} la répartition de l'énergie par fréquence.
 Concrètement, de l'énergie dans les fréquences basses correspond à des ajustements lents, montrant une bonne stabilité contrairement à si on en avait trouvé dans les hautes fréquences.
 
-\subsubsection{Puissance moyenne de la densité spectrale et estimateur de Welch}
+\subsubsection{Estimateur de Welch}
 
 L'estimateur de Welch est une amélioration apportée au périodogramme. \\
 Cette méthode permet d'augmenter la qualité de l'estimation de la densité spectrale de puissance.
@@ -262,6 +264,7 @@ $P_l(f)$ est le périodogramme de chaque segment (on utilise la formule \ref{eq:
 La figure \ref{fig:welch} montrant les valeurs estimées par calcul de l'estimateur de Welch se base sur les mêmes données médicales que la figure \ref{fig:periodogramme}.
 
 \subsubsection{Analyse de la pente du spectre de puissance et régression}
+\label{subsubsec:pente}
 
 L’analyse du spectre dans le plan log-log permet de mieux comprendre les mécanismes de régulation posturale et de quantifier la stabilité ou l’instabilité en fonction des fréquences des oscillations du CdM ou CdP. 
 La régression linéaire dans ce contexte permet d’estimer la pente du spectre et de révéler les caractéristiques de contrôle postural.
