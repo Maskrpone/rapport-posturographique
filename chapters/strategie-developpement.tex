@@ -1,6 +1,5 @@
 \section{Stratégie de développement}
 
-
 \subsection{Analyse du marché}
 
 Cette analyse de marché a pour objectif de présenter les différentes 
@@ -22,21 +21,23 @@ du premier examen patient (Figure 5(c)).
     \centering
     \begin{subfigure}[b]{0.45\textwidth}
       \centering
-      \includegraphics[height=5cm]{images/pression_plantaire/winposture2.png}
+      \includegraphics[width=5cm]{images/pression_plantaire/winposture2.png}
     \caption{Logiciel de visualisation Winposture}\label{fig: Logiciel Winposture}
-    \end{subfigure}\\
+    \end{subfigure}
     \begin{subfigure}[b]{0.45\textwidth}
       \centering
-      \includegraphics[height=4cm]{images/analyse_marche/FFT.png}
+      \includegraphics[width=5cm]{images/analyse_marche/FFT.png}
       \caption{Fenêtres d’analyse fréquentielle Fusyo (FFT)}\label{fig:FFT}
     \end{subfigure}
     \begin{subfigure}[b]{0.45\textwidth}
       \centering
-      \includegraphics[height=5cm]{images/analyse_marche/WinPod4.png}
+      \includegraphics[width=5cm]{images/analyse_marche/WinPod4.png}
     \caption{Les rapports générés personnalisable Win-pod}\label{fig:WinPod4}
     \end{subfigure}
     \caption{Rapports générés personnalisables Win-pod}\label{fig:global2}
-  \end{figure}
+\end{figure}
+
+
 \subsection{Conception}
 
 \subsubsection{Fonctionnalités intégrées}
@@ -77,16 +78,16 @@ La plateforme de visualisation des signaux posturographique imaginée à été c
 pour être intuitive, simple d’utilisation ainsi que ergonomique facilitant au 
 quotidien le diagnostic du médecin. Dès la page d’accueil, ce dernier peut accéder 
 à l’ensemble de ses dossiers patients afin d’assurer un suivi personnalisé 
-(Figure 6(a)). La plateforme permet également de visualiser les données 
+(Figure \ref{fig:accueil_prototype}). La plateforme permet également de visualiser les données 
 enregistrées par la plateforme stabilométrique 
 De plus, il est possible de visualiser les données 
 (enregistrées par la plateforme stabilométrique) dans les domaines fréquentiels 
 et temporels, tout en offrant la possibilité de sélectionner différents protocoles 
-expérimentaux afin de comparer les résultats obtenus (Figure 6(b)). Le médecin a 
-la possibilité d’ajuster différents paramètres, tels que la fréquence 
+expérimentaux afin de comparer les résultats obtenus (Figure \ref{fig:visualisation_protocole_prototype}). 
+Le médecin a la possibilité d’ajuster différents paramètres, tels que la fréquence 
 d’échantillonnage ou la durée d’observation des relevés de données.  Il dispose 
 aussi d’un accès à des données synthétiques clés, comme la moyenne, la médiane ou 
-l’écart-type, pour une analyse rapide (Figure 6(c)). Par ailleurs, la plateforme 
+l’écart-type, pour une analyse rapide (Figure \ref{fig:informations_generales_prototype}. Par ailleurs, la plateforme 
 permet d’évaluer la stabilité du patient à travers divers examens cliniques, 
 favorisant une corrélation entre les résultats cliniques et les données 
 enregistrées. Enfin, chaque observation peut être exportée au format PDF à la fin 
@@ -95,20 +96,20 @@ conclusions tirées lors de l’étude.
 
 \begin{figure}[H]
     \centering
-    \begin{subfigure}[b]{0.45\textwidth}
-      \hspace*{-2cm}
+    \begin{subfigure}[b]{0.5\textwidth}
+      \centering
       \includegraphics[height=5cm]{images/Prototype/Accueil de la plateforme de visualisation.png}
-      \caption{Accueil de la plateforme de visualisation}\label{fig:Accueil de la plateforme de visualisation}
+      \caption{Accueil de la plateforme de visualisation}\label{fig:accueil_prototype}
     \end{subfigure}
-    \begin{subfigure}[b]{0.45\textwidth}
+    \begin{subfigure}[b]{0.5\textwidth}
         \centering
       \includegraphics[height=5cm]{images/Prototype/Visualisation des données en fonction de différents protocoles expérimentaux.png}
-      \caption{Visualisation des données en fonction de différents protocoles expérimentaux}\label{fig:Visualisation des données en fonction de différents protocoles expérimentaux}
+      \caption{Visualisation des données en fonction de différents protocoles expérimentaux}\label{fig:visualisation_protocole_prototype}
     \end{subfigure}\\
-    \begin{subfigure}[b]{0.45\textwidth}
+    \begin{subfigure}[b]{0.5\textwidth}
       \centering
       \includegraphics[height=5cm]{images/Prototype/visualiser des données clés du jeu de données étudié.png}
-    \caption{visualiser des données clés du jeu de données étudié }\label{fig:visualiser des données clés du jeu de données étudié }
+    \caption{visualiser des données clés du jeu de données étudié }\label{fig:informations_generales_prototype}
     \end{subfigure}
     \caption{Plateforme de posturographie imaginée}\label{fig:globalposturographie}
   \end{figure}
